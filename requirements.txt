@@ -1,0 +1,25 @@
+# requirements.txt
+# No external dependencies - using built-in modules only!
+
+# pytest.ini
+[tool:pytest]
+testpaths = tests
+python_files = test_*.py
+python_functions = test_*
+addopts = -v --tb=short
+
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.coverage
+htmlcov/
+.pytest_cache/
+.DS_Store
